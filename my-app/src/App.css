@@ -1,0 +1,291 @@
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* ////////////////////////Header//////////////////////// */
+* {
+  font-family: "Staatliches", cursive;
+}
+@keyframes headerAnimation {
+  0% {
+    background-image: url("https://www.sony.co.uk/alphauniverse/assets/2020/11/hannah-couzens-sony-alpha-7RM3-black-and-white-side-profile-shot-of-a-lady-with-her-hair-tied-back-in-a-ponytail-scaled.jpg");
+    background-size: cover;
+  }
+  50% {
+    background-image: url("https://wallpapers-hub.art/wallpaper-images/38123.jpg");
+    background-size: cover;
+  }
+  100% {
+    background-image: url("https://www.sony.co.uk/alphauniverse/assets/2020/11/hannah-couzens-sony-alpha-7RM3-black-and-white-side-profile-shot-of-a-lady-with-her-hair-tied-back-in-a-ponytail-scaled.jpg");
+    background-size: cover;
+  }
+}
+.image1 {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  animation: headerAnimation ease-in 30s infinite;
+}
+.text1 {
+  text-align: center;
+  position: relative;
+  top: 400px;
+  left: 350px;
+  font-size: 80px;
+  font-family: "Reggae One", cursive;
+  color: rgb(255, 255, 255);
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* //////////////////////////////NavBar/////////////////// */
+.navbar-brand {
+  font-family: "Codystar", cursive !important;
+  font-weight: bolder;
+  font-size: 25px !important;
+}
+.navbar {
+  padding: 0 20px;
+  height: 45px;
+  /* background-color: black; */
+}
+.me-auto,
+.nav-link {
+  color: white !important;
+  padding-right: 25px !important;
+}
+/* ////////////////////product///////////////////////////////// */
+.product-div {
+  /* width: 75%; */
+  margin: 50px auto 50px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 17.5px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 25px 0;
+}
+.card {
+  width: 18rem;
+  display: inline-block;
+  height: 27rem;
+  box-shadow: 0 0 5px rgb(133, 133, 133);
+  /* color: black; */
+}
+.card:hover{
+cursor: pointer;
+}
+.card-img {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+/*///////////////////////////Button//////////////////////////*/
+
+.submit-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 50px;
+  letter-spacing: 3.5px;
+}
+/* /////////////////////////Footer///////////////////////////// */
+#Footer {
+  /* position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0; */
+
+  padding: 0 15px;
+  margin-bottom: 0px !important;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 2px;
+  height: 150px;
+}
+.socialicons {
+text-align: center !important;
+
+}
+.socialicons a{
+  padding:0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 28px;
+
+}
+.socialicons a:hover{
+  color:rgb(83, 83, 83);
+}
+/* ///////////////////// contact us////////////////// */
+.customertext {
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 25px;
+  font-size: 26px;
+  font-family: "Staatliches", cursive;
+}
+
+.contactpage {
+  background-image: url("https://cdn.theatlantic.com/thumbor/W9ZDkSPgzCz3ZKgaaqqdROx54oo=/0x0:5024x2826/960x540/media/img/mt/2020/06/final_2/original.jpg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.formdiv {
+  width: 35%;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: black;
+}
+
+.form-label {
+  margin-top: 10px;
+  /* margin-bottom: 50px; */
+}
+
+/* /////////////////////main//////////////////////////////////////////////// */
+.mainbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 100px;
+  font-size: 10px;
+}
+.text-row span,
+.text-row div {
+  display: inline-block;
+  margin: 0px 50px;
+}
+
+.text-dark-grey,
+.text-hover-dark-grey:hover,
+.text-dark-gray,
+.text-hover-dark-gray:hover {
+  color: rgb(255, 255, 255) !important;
+
+  background-color: hsl(0, 0%, 0%) !important;
+}
+.text-padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  font-size: 18px;
+  font-family: "Staatliches", cursive;
+}
+.text-center {
+  text-align: center !important;
+}
+
+#row {
+  display: block;
+  height: 100%;
+  line-height: 1.8;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+.text-container:after,
+.text-container:before,
+.text-panel:after,
+.text-panel:before,
+.text-row:after,
+.text-row:before,
+.text-row-padding:after,
+.text-row-padding:before,
+.text-cell-row:before,
+.text-cell-row:after,
+.text-clear:after,
+.text-clear:before,
+.text-bar:before,
+.text-bar:after,
+.text-container:after,
+.text-container:before,
+.text-panel:after,
+.text-panel:before,
+.text-row:after,
+.text-row:before,
+.text-row-padding:after,
+.text-row-padding:before,
+.text-cell-row:before,
+.text-cell-row:after,
+.text-clear:after,
+.text-clear:before,
+.text-bar:before,
+.text-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.bigtext {
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+}
+.storeimg {
+  float: left;
+  padding: 0 50px 60px;
+}
+.storeimg img {
+  width: 550px;
+  height: 350px;
+  box-shadow: 0 0 5px #333;
+}
+.storeimg2 {
+  float: right;
+  padding: 0 50px 60px;
+}
+.storeimg2 img {
+  width: 550px;
+  height: 350px;
+  box-shadow: 0 0 5px #333;
+}
+
+.dktext {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.ulist li {
+  padding-bottom: 5px;
+}
+
+.ulist2 li {
+  padding-bottom: 5px;
+}
+.text2 {
+  padding-left: 50px;
+}
